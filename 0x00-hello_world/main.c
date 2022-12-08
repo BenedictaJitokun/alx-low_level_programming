@@ -1,6 +1,11 @@
-#include <stdio.h>
-/* This is my first entry */
-int main(void)
+# include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+char main(void)
 {
-	return 0;
+	printf("Hello, world");
+	return (0);
 }
