@@ -1,21 +1,18 @@
 #include "main.h"
 /**
  * _abs - Prints the absolute value of integers
- * Return: Always return 0
- * @int: data type
+ * Return: Always return
+ * @n: data type
  */
-int _abs(int)
+int _abs(int n)
 {
-	int r;
-	int k = -r;
-
 	if (r >= 0)
 	{
-		_putchar('r');
+		return (n);
 	}
 	else
 	{
-		_putchar('k');
+		return (-n);
 	}
 }
 
