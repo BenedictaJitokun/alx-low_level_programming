@@ -31,7 +31,7 @@ int main(void)
 				f2 = f2 / 1000000000;
 				boolean2 = 0;
 			}
-			fn2 = (f11 + f22);
+			fn2 = f11 + f22;
 			fn = f1 + f2 + (fn2 / 1000000000);
 			printf(", %ld", fn);
 			printf("%ld", fn2 % 1000000000);
