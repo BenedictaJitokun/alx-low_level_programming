@@ -1,8 +1,4 @@
 #include <stdio.h>
-/**
- * main - modifies a code
- * Return: 0
- */
 
 int main(void)
 {
